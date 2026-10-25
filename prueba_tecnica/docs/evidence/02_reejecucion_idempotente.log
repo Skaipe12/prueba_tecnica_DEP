@@ -1,0 +1,17 @@
+2026-10-24 20:31:52 | INFO     | pipeline_service | batch_size=10
+2026-10-24 20:31:52 | INFO     | pipeline_service | Tablas creadas: transactions, pipeline_stats
+2026-10-24 20:31:52 | INFO     | metric_analyzer | Estado reanudado desde BD: 147 filas, avg=57.0068, min=10.00, max=100.00
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo 2012-1.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo 2012-2.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo 2012-3.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo 2012-4.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo 2012-5.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | INFO     | pipeline_service | Verificación tras los 5 archivos
+  en ejecución : count=147 avg=57.0068 min=10.00 max=100.00
+  base de datos: count=147 avg=57.0068 min=10.00 max=100.00
+  consistent=True | filas en transactions=151
+2026-10-24 20:31:52 | WARNING  | pipeline_service | Archivo validation.csv omitido: ya existe en transactions.source_file
+2026-10-24 20:31:52 | INFO     | pipeline_service | Verificación tras validation.csv
+  en ejecución : count=147 avg=57.0068 min=10.00 max=100.00
+  base de datos: count=147 avg=57.0068 min=10.00 max=100.00
+  consistent=True | filas en transactions=151

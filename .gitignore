@@ -1,0 +1,13 @@
+env_proyecto
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+__init__.py
+
+# IDE
+.vscode/
+.idea/

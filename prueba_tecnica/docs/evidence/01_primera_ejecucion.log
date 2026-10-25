@@ -1,0 +1,16 @@
+2026-10-24 20:31:51 | INFO     | pipeline_service | batch_size=10
+2026-10-24 20:31:51 | INFO     | pipeline_service | Tablas creadas: transactions, pipeline_stats
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo 2012-1.csv cargado: 22 filas (2 sin price, 0 descartadas) | count=20 avg=59.6500 min=14 max=97
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo 2012-2.csv cargado: 29 filas (0 sin price, 0 descartadas) | count=49 avg=56.7959 min=10 max=100
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo 2012-3.csv cargado: 31 filas (0 sin price, 0 descartadas) | count=80 avg=57.9125 min=10 max=100
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo 2012-4.csv cargado: 30 filas (2 sin price, 0 descartadas) | count=108 avg=57.7778 min=10 max=100
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo 2012-5.csv cargado: 31 filas (0 sin price, 0 descartadas) | count=139 avg=57.8849 min=10 max=100
+2026-10-24 20:31:51 | INFO     | pipeline_service | Verificación tras los 5 archivos
+  en ejecución : count=139 avg=57.8849 min=10 max=100
+  base de datos: count=139 avg=57.8849 min=10.00 max=100.00
+  consistent=True | filas en transactions=143
+2026-10-24 20:31:51 | INFO     | pipeline_service | Archivo validation.csv cargado: 8 filas (0 sin price, 0 descartadas) | count=147 avg=57.0068 min=10 max=100
+2026-10-24 20:31:51 | INFO     | pipeline_service | Verificación tras validation.csv
+  en ejecución : count=147 avg=57.0068 min=10 max=100
+  base de datos: count=147 avg=57.0068 min=10.00 max=100.00
+  consistent=True | filas en transactions=151
